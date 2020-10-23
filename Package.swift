@@ -15,9 +15,9 @@ let package = Package(
             targets: ["DataDomeSDK", "DataDomeSDKStatic"])
     ],
     targets: [
-        .target(name: "DataDomeSDK"),
+        .target(name: "DataDomeSDKStatic"),
         .binaryTarget(
-            name: "DataDomeSDKStatic",
+            name: "DataDomeSDK",
             url: "https://package.datadome.co/ios/DataDomeSDK-2.5.5.zip",
             checksum: "7bf128449763647a543da3aebc57372cfcd3061d7f037cdd087152e587849e49"
         )
