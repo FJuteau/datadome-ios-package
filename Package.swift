@@ -12,10 +12,9 @@ let package = Package(
         .library(
             name: "DataDomeSDK",
             type: .dynamic,
-            targets: ["DataDomeSDKTarget", "DataDomeSDK"])
+            targets: ["DataDomeSDK"])
     ],
     targets: [
-        .target(name: "DataDomeSDKTarget"),
         .binaryTarget(
             name: "DataDomeSDK",
             url: "https://package.datadome.co/ios/DataDomeSDK-2.5.5.zip",
